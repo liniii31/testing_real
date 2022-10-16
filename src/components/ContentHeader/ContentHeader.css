@@ -1,0 +1,148 @@
+.r-div {
+    background-color: #f5f5f5;
+    padding: 23px;
+    justify-content: center;
+    vertical-align: center;
+    border-bottom: solid 2px #e1f9f4;
+    margin-left: 240px;
+  }
+  .l-div {
+    background-color: #f5f5f5;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 240px;
+  }
+  .title11 {
+    text-align: left;
+    color: #a6a6a6;
+    margin-top: 0px;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .title1 {
+    text-align: left;
+    color: #a6a6a6;
+    margin-top: 0px;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+    background-color: fuchsia;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 2px #fff solid;
+    padding-left: 20px;
+    height: 40px;
+  }
+  .title {
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 2px #fff solid;
+    font-family: sans-serif;
+  }
+  
+  .title:focus {
+    outline-color: #fff;
+  }
+  
+  .title2 {
+    text-align: right;
+    color: #a6a6a6;
+    margin-right: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .nav {
+    background-color: #fff;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 270px;
+    width: 78vw;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px;
+    color: #284e91;
+  }
+  
+  .li-width {
+    width: 82px;
+  }
+  .li-contact {
+    width: 110px;
+  }
+  .li-ppid {
+    width: 100px;
+  }
+  .main-id {
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  .btn {
+    background-color: #f5faf5;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+  }
+  .icon-css {
+    align-self: center;
+    color: #dfdfdf;
+    vertical-align: center;
+    text-align: center;
+    font-size: 18px;
+  }
+  .c {
+    color: #1f1f1f;
+  }
+  .search {
+    margin-right: 15px;
+    color: #6ab4f8;
+    text-align: center;
+  }
+  .search2 {
+    margin-right: 15px;
+    color: #6ab4f8;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .button {
+    text-align: right;
+    color: #ffffff;
+    margin-left: 420px;
+    margin-top: 20px;
+    height: 45px;
+    background-color: #6ab4f8;
+    border-radius: 50px;
+    border: 2px #fff solid;
+    font-family: sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+  }
+.no-data{
+  width: 76vw;
+  background-color:#6ab4f8;
+  border-radius: 8px;
+  color: #f5f5f5;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+  

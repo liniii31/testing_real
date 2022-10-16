@@ -1,0 +1,201 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .post-container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom-color: #61dafb;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    width: 40vw;
+    margin: auto;
+  }
+  
+  .post-image img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .post-name {
+   margin-left: 15px;
+   top: -12px;
+   position: relative;
+   font-weight: bolder;
+   font-size: larger;
+   color: green;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+  }
+  
+  #camera {
+    font-size: 25px;
+  }
+  
+  .card-container {
+    margin-top: 10px;
+    border: 2px solid lightblue;
+    width: 35vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-top: 5px;
+  }
+  .card-name {
+    font-weight: bold;
+    float: left;
+  margin-left: 25px;
+  clear: both;
+}
+
+#card-more {
+  font-size: 22px;
+  float: right;
+  margin-right: 25px;
+  clear: both;
+}
+
+.card-location {
+  /* margin-right: 300px; */
+  font-size: 14px;
+  float: left;
+  margin-left: 25px;
+}
+
+.card-img {
+  width: 35vw;
+  height: 30vh;
+  margin-top: 10px;
+}
+
+#card-heart {
+  float: left;
+  margin-left: 25px;
+}
+
+#card-send {
+  margin-left: 15px;
+  float: left;
+
+}
+
+#card-date {
+  font-size: 16px;
+  float: right;
+  margin-right: 25px;
+}
+
+#card-like {
+  font-size: 14px;
+  color: grey;
+  float: left;
+  margin-left: 25px;
+  margin-top: 0px;
+  clear: both;
+}
+
+#card-bold-text {
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+  margin-left: -79px;
+}
+
+.alignleft {
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+  float: left;
+  margin-left: 25px;
+  margin-top: -10px;
+  clear: both;
+}
+.alignright {
+	float: right;
+}
+
+.alignleftLikes {
+  float: left;
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+  margin-left: 25px;
+}
+
+.landing-img {
+  width: 45vw;
+  height: 95vh;
+  padding: 10px;
+}
+
+.landing-div {
+  float: left;
+  margin: auto;
+  margin-left: 50px;
+  align-items: center;
+ 
+}
+
+.landing-h2 {
+  float: right;
+  margin-top: 45vh;
+  margin-left: 15vw;
+  clear: both;
+  font-size: 40px;
+  color: green;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;  
+}
+
+.landing-btn {
+  border: 2px solid green;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace; 
+  border-radius: 4px; 
+  color: green;
+  margin-left: 100px;
+}
+
+.cam {
+  margin-left: 20vw;
+}

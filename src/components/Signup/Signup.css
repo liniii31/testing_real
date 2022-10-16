@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+*{
+    margin:0;
+    padding:0;
+}
+.signup-page{
+    background-color : #F5F5F5;
+    width:100vw;
+    height :100vh;
+    
+}
+.signup-grid{
+    margin:auto;
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    width:564px;
+    height:583px;
+    border-radius: 10px;
+}
+.signup-heading{
+    text-align: center;
+    padding-top: 10%;    
+}
+.signup-heading h1{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 18px;
+    color:#4C57B6
+}
+.signup-desc{
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Open Sans';
+    color:#000000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+.signup-form{
+    padding-top:10%;
+    display: flex;
+    flex-direction: column;
+}
+.email-field{
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    width:435px;
+    height:54px;
+    margin:auto;
+    padding-left :2%;
+    opacity: 0.4;
+}
+.password-field{
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    width:435px;
+    height:54px;
+    margin:auto;
+    margin-top:5%;
+    padding-left :2%;
+    opacity: 0.4;
+}
+.signup-button{
+    background-color:#4C57B6;
+    color:white;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    width:450px;
+    height:54px;
+    margin:auto;
+    margin-top:5%;
+}
+.login-link{
+    text-decoration: none;
+    text-align: center;
+    margin-top:10%;
+    color: #4C57B6;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    
+}
+.login-clue{
+    color: #000000;
+    text-align: center;    
+    width: 564px;
+    margin:auto;
+    margin-top:5%;
+}
+.message-display{
+    text-align: center;    
+    width: 564px;
+    margin:auto;
+    margin-top:5%;
+}
+.error-msg,.success-msg{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+.error-msg{
+    color : red;
+}
+.success-msg{
+    color:green;
+}
