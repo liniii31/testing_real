@@ -14,7 +14,7 @@ const Header = () => {
 
         <div className="dropdown">
           <BiUser />
-          {userName}
+          {window.localStorage.getItem('email')}
           <CgChevronDown />
           
         </div>

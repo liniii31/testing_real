@@ -8,6 +8,7 @@ import BasicInfo from "./BasicInfo";
 import PropertyDetail from "./PropertyDetail";
 import GeneralInfo from "./GeneralInfo";
 import LocationInfo from "./LocationInfo";
+import Private from "./components/PrivateRouter/PrivateRouter"
 import {
   BrowserRouter,
   Route,
@@ -59,36 +60,11 @@ function App() {
         <Route  path="/" element={ <Login/> }/>
         <Route  path="/signup" element={ <Signup/> }/>
         <Route  path="/dashboard" element={<Dashboard />}/>
-        <Route  path="/postProperty" element={<AddProperty/>}/>
-        <Route path="/basic-info" element={
-          
-          <BasicInfo
-            formData={formData} setFormData={setFormData}
-          />
-        
-      } />
-      <Route path="/property-detail" element={
-    
-          <PropertyDetail
-            formData={formData} setFormData={setFormData}
-          />
-      
-      } />
-      <Route path="/general-info" element={
-       
-          <GeneralInfo
-            formData={formData} setFormData={setFormData}
-          />
-      
-
-      } />
-      <Route path="/location-info" element={
-     
-          <LocationInfo
-            formData={formData} setFormData={setFormData}
-          />
-      
-      } />
+        <Route path="/postproperty" element={<AddProperty/>}/>
+        <Route path="/basic-info" element={ <BasicInfo formData={formData} setFormData={setFormData} /> } />
+        <Route path="/property-detail" element={ <PropertyDetail formData={formData} setFormData={setFormData} /> } />
+        <Route path="/general-info" element={ <GeneralInfo formData={formData} setFormData={setFormData} />  } />
+        <Route path="/location-info" element={ <LocationInfo formData={formData} setFormData={setFormData} /> } />
       </Routes>
     </BrowserRouter>
   );

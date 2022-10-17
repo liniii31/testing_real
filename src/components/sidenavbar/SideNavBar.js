@@ -1,8 +1,10 @@
+import React from "react";
 import "./SideNavBar.css";
 import { RiHome3Line } from "react-icons/ri";
 import { IoIosNotifications } from "react-icons/io";
 import { BsFillTagFill } from "react-icons/bs";
 import { GrFormView, GrUpload, GrDownload } from "react-icons/gr";
+
 
 const SideNavBar = () => {
   return (
