@@ -1,4 +1,17 @@
-### Look Of It
+# Real Estate Project
+## Technologies Used
+- FrontEnd : ReactJS
+- Backend : NodeJS, MongoDB atlas
+- Backend Deployment : heroku
+- Frontend Deployment : Netlify app
+
+## How To run
+- clone the repository
+- go to project folder in terminal
+- npm install
+- npm start
+
+## Look Of It
 
  ## 1
  If the user is not signed up, this page helps to sign up the new user and creates a new account for them. Here Mail id will be checked if it already exists or not.The passwords minimum length should be 8 characters. Once the validation is successful, mail and password are stored in the Db. Password is stored after hashing it.
