@@ -1,4 +1,7 @@
 # Real Estate Project
+
+Live Link : https://fascinating-granita-e985e8.netlify.app/
+
 ## Technologies Used
 - FrontEnd : ReactJS
 - Backend : NodeJS, MongoDB atlas
